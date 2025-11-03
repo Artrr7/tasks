@@ -11,8 +11,3 @@ console.log(result);
 
 const result2 = myArrayForEach.forEach((value) => console.log(value.name));
 console.log(result2);
-
-
-const users = [ 
-   
-]
