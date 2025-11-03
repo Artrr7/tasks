@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>trainee</title>
 </head>
+
 <body>
-    
+    <input id="nome" placeholder="Digite seu nome">
+    <button id="btn" enviar></button>
+
+    <hr>
+    <input id="num1" type="number" placeholder="Digite um número">
+    <input id="num2" type="number" placeholder="Digite outro número">
+
+    <div>
+        <input type="radio" id="soma" name="operacao" value="1" checked>
+        <label for="soma">Soma</label>
+    </div>
+
+    <div>
+        <input type="radio" id="subtrair" name="operacao" value="2">
+        <label for="subtrair">Subtrair</label>
+    </div>
+
+    <div>
+        <input type="radio" id="multiplicar" name="operacao" value="3">
+        <label for="multiplicar">Multiplicar</label>
+    </div>
+
+    <div>
+        <input type="radio" id="dividir" name="operacao" value="4">
+        <label for="dividir">Dividir</label>
+    </div>
+
+    <button id="calcular">Calcular</button>
+    <div id="resultado"></div>
 </body>
+
 </html>
