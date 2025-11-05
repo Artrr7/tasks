@@ -29,7 +29,6 @@ document.getElementById("btn").addEventListener("click", function () {
 
 
 
-
 let resultado;
 document.getElementById("calcular").addEventListener("click", function () {
 
@@ -54,6 +53,7 @@ document.getElementById("calcular").addEventListener("click", function () {
             resultado = "Operação inválida";
     }
 
+    
     document.getElementById("resultado").innerText = "Resultado: " + resultado;
     alert("resultado")
 });
