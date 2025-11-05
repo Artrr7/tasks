@@ -52,6 +52,8 @@ document.getElementById("calcular").addEventListener("click", function () {
             break;
         default:
             resultado = "Operação inválida";
+
+            
     }
 
     document.getElementById("resultado").innerText = "Resultado: " + resultado;
