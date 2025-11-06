@@ -29,7 +29,6 @@ document.getElementById("btn").addEventListener("click", function () {
 
 
 
-
 let resultado;
 document.getElementById("calcular").addEventListener("click", function () {
 
@@ -56,8 +55,13 @@ document.getElementById("calcular").addEventListener("click", function () {
             
     }
 
+<<<<<<< HEAD
     document.getElementById("resultado").innerText = "Resultado: " + resultado;   
     
     
+=======
+    
+    document.getElementById("resultado").innerText = "Resultado: " + resultado;
+>>>>>>> pre
     alert("resultado")
 });
