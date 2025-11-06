@@ -58,5 +58,6 @@ document.getElementById("calcular").addEventListener("click", function () {
 
     document.getElementById("resultado").innerText = "Resultado: " + resultado;   
     
+    
     alert("resultado")
 });
