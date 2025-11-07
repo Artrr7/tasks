@@ -10,6 +10,7 @@ for (let chave in pessoa) {
 }
 
 
+
 const fruits = ['banana', 'maçã', 'pera']
 for (let i in frutas) {
     console.log(i, frutas[i])
